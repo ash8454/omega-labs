@@ -13,7 +13,7 @@ $(document).ready(function() {
     
     */
     
-    $('.js--section-features').waypoint(function(direction) {
+    $('.js--section-solutions').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
@@ -27,11 +27,11 @@ $(document).ready(function() {
     /* scroll buttons */
     
     $('.js--scroll-to-plans').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--section-products').offset().top}, 1000);
     });
     
     $('.js--scroll-to-start').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--section-solutions').offset().top}, 1000);
     });
     
     
@@ -101,7 +101,7 @@ $(document).ready(function() {
         div: '.map',
         lat: 38.9165047,
         lng: -77.20,
-        zoom: 12
+        zoom: 15
     });
     
     map.addMarker({

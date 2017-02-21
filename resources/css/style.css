@@ -79,7 +79,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #298ed8;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -103,18 +103,18 @@ h2:after {
 .icon-big {
     font-size: 380%;
     display: block;
-    color: #e67e22;
+    color: #298ed8;
     margin-bottom: 10px;
     
 }
-
+/*#298ed8*/
 
 .icon-small {
 
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #298ed8;
     font-size: 120%;
     margin-right: 10px;
     
@@ -127,10 +127,10 @@ h2:after {
 /* ------  LINKS ------  */
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #298ed8;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #298ed8;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
@@ -159,45 +159,48 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #298ed8;
+    border: 1px solid #298ed8;
     color: #fff;
 }
 
 .btn-ghost:link,
 .btn-ghost:link {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #298ed8;
+    color: #298ed8;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #298ed8;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]:hover,
 input[type=submit]:active { 
-    border: 1px solid #cf6d17;
+    border: 1px solid #298ed8;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #298ed8;
     color: #fff;
 }
 
+#free-trial {
+     margin-right: 20px;   
+}
 /* ----------------------------------  */
 /* HEADER */
 /* ----------------------------------  */
 
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/speed.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/speed.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -217,6 +220,7 @@ header {
     height: 100px;
     width: auto;
     float: left;
+    color: rgba(15, 12, 12, 0.58);
     margin-top: 20px;
 }
 
@@ -254,7 +258,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #298ed8;
 }
 
 /* Mobile-navi */
@@ -302,10 +306,10 @@ header {
 }
 
 /* ----------------------------------  */
-/* FEATURES */
+/* solutions */
 /* ----------------------------------  */
 
-.section-features .long-copy {
+.section-solutions .long-copy {
     margin-bottom: 30px;
 }
 
@@ -313,6 +317,34 @@ header {
 /* ----------------------------------  */
 /* MEALS */
 /* ----------------------------------  */
+
+.quality-span-1,
+.quality-span-2,
+.quality-span-3,
+.quality-span-4 {
+    font-size: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.quality-span-1 {
+   margin-left: 10px;
+}
+
+.quality-span-2 {
+    margin-left: 40px;
+}
+
+.quality-span-3 {
+    margin-left: 80px;
+}
+
+.quality-span-4 {
+    margin-left: 200px;
+}
 
 .section-meals {
     padding: 0;
@@ -356,13 +388,16 @@ header {
 
 
 /* ----------------------------------  */
-/* HOW IT WORKS */
+/* WHO WE ARE */
 /* ----------------------------------  */
 
 .section-steps {
     background-color: #f4f4f4;
 }
 
+.section-about {
+   background-color: #f4f4f4; 
+}
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
@@ -371,24 +406,51 @@ header {
 
 .steps-box:last-child {
     padding-left: 3%;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .app-screen {
     width: 40%
 }
 
+.who-we-are-screen {
+    width: 100%;
+    height: 700px;
+}
+
+
 .works-step {
     margin-bottom: 50px;
 }
+
+.aboutus-para {
+    margin-bottom: 50px;
+    text-align: left;
+    line-height: 2.5em;
+}
+
+
+
+.movers {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.signupnow {
+    text-align: center; 
+}
+
+/*
 
 .works-step:last-of-type {
     margin-bottom: 80px;
 }
 
 .works-step div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: #298ed8;
+    border: 2px solid #298ed8;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -400,6 +462,7 @@ header {
     margin-right: 25px;
 }
 
+
 .btn-app:link,
 .btn-app:visited {
     border: 0;
@@ -410,10 +473,11 @@ header {
     width: auto;
     margin-right: 10px;
 }
+*/
 
 
 /* ----------------------------------  */
-/* CITIES */
+/* MEET MY TEAM */
 /* ----------------------------------  */
 
 .box img {
@@ -426,13 +490,19 @@ header {
     margin-bottom: 5px;
 }
 
+.col span-1-of-3 box second {
+    margin-right: 10px;
+}
 /* ----------------------------------  */
 /* TESTIMONIALS */
 /* ----------------------------------  */
+.section-testimonials {
+    background-color: #f4f4f4;
+}
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-automation.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-automation.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -474,9 +544,26 @@ cite img {
 /* SIGN UP*/
 /* ----------------------------------  */
 
-.section-plans {
+.section-products {
     background-color: #f4f4f4;
 }
+
+.plan1 {
+    font-weight: 20px;
+    font-size: 19px;
+}
+
+.plan2 {
+    font-weight: 20px;
+    font-size: 19px;
+}
+
+
+.plan3 {
+    font-weight: 20px;
+    font-size: 19px;
+}
+
 
 .plan-box {
     background-color: #fff;
@@ -506,7 +593,7 @@ cite img {
     font-size: 200%;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #e67e22;
+    color: #298ed8;
 }
 
 .plan-price span {
@@ -527,8 +614,11 @@ cite img {
 }
 
 /* ----------------------------------  */
-/* CONTACT US*/
+/* SIGN UP FOR DEMO*/
 /* ----------------------------------  */
+.section-form {
+  background-color: #f4f4f4;  
+}
 
 .contact-form {
     width: 90%;
@@ -558,18 +648,7 @@ input[type=checkbox] {
 
 *:focus {outline: none}
 
-.map-box {
-    width: 100%;
-    height: 650px;
-    position: relative;
-}
 
-.map {
-    width: 100%;
-    height: 650px;
-    position: relative;
-    z-index: 0;
-}
 
 .form-box {
     position: absolute;
@@ -594,6 +673,43 @@ input[type=checkbox] {
 .success { background-color: rgba(38, 191, 68, 0.8); }
 
 .error { background-color: rgba(289, 46, 46, 0.8); }
+
+/* ----------------------------------  */
+/* CONTACT US*/
+/* ----------------------------------  */
+
+
+.map-box {
+    background-color: #f4f4f4; 
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.map {
+    width: 160%;
+    height: 300px;
+    position: relative;
+    z-index: 0;
+}
+.contact-us-h2 {
+    margin-top: 40px;   
+}
+.address,
+.address-info,
+.city-info,
+.phone-info,
+.email-info
+{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+.address {
+    margin-bottom: 30px;
+}
+
+
 
 /* ----------------------------------  */
 /* FOOTER*/
