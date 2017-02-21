@@ -101,7 +101,7 @@ $(document).ready(function() {
         div: '.map',
         lat: 38.9165047,
         lng: -77.20,
-        zoom: 15
+        zoom: 10
     });
     
     map.addMarker({
