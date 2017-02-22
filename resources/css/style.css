@@ -313,6 +313,17 @@ header {
     margin-bottom: 30px;
 }
 
+.h3-solutions {
+    width: 120%;
+    font-size: 20px;
+    font-weight: 380px;
+}
+
+.p-solutions {
+    width: 105%;
+    padding: 2px;
+}
+
 
 /* ----------------------------------  */
 /* MEALS */
@@ -555,7 +566,7 @@ cite img {
 }
 
 .plan2 {
-    font-weight: 20px;
+    font-weight:20px;
     font-size: 19px;
 }
 
