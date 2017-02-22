@@ -481,12 +481,13 @@ header {
 /* ----------------------------------  */
 
 .box img {
-    width: 100%;
+    width: 75%;
     height: auto;
     margin-bottom: 15px;
 }
 
 .city-feature {
+    width: 95%;
     margin-bottom: 5px;
 }
 
