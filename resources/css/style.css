@@ -72,6 +72,7 @@ h2 {
 }
 
 h3 {
+
     font-size: 110%;
     margin-bottom: 15px;
 }
@@ -197,8 +198,52 @@ input[type=submit]:active {
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #298ed8;
-    color: #fff;
+    color: #00ceff;
 }
+
+.btn-ghost-beginner:link,
+.btn-ghost-beginner:link {
+    border: 1px solid #29d8b0;
+    color: #fff;
+    background-color: #0093ff
+}
+
+.btn-ghost-grid:hover,
+.btn-ghost-grid:active {
+    border: 1px solid #29d830;
+    color: #fff;
+    background-color: #ff00ff
+}
+
+.btn-ghost-grid:link,
+.btn-ghost-grid:link {
+    border: 1px solid #29d8b0;
+    color: #fff;
+    background-color: #ffa700
+}
+
+.btn-ghost-grid:hover,
+.btn-ghost-grid:active {
+    border: 1px solid #29d830;
+    color: #d87329;
+    background-color: #ffa700
+}
+
+
+.btn-ghost-mobile:link,
+.btn-ghost-mobile:link {
+    border: 1px solid #29d8b0;
+    color: #fff;
+    background-color: #ffa700
+}
+
+.btn-ghost-mobile:hover,
+.btn-ghost-mobile:active {
+    border: 1px solid #29d830;
+    color: #fff;
+    background-color: #ffa700
+}
+
 
 #free-trial {
      margin-right: 20px;   
@@ -209,11 +254,14 @@ input[type=submit]:active {
 
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/speed.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/speed.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/full-automation1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/full-automation1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/full-automation1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/full-automation.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/full-automation.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     background-attachment: fixed;
 }
 
@@ -570,6 +618,7 @@ cite img {
     background-color: #f4f4f4;
 }
 
+
 .plan1 {
     font-weight: 20px;
     font-size: 19px;
@@ -586,22 +635,29 @@ cite img {
     font-size: 19px;
 }
 
+.h3-header {
+    width:200%;
+    text-align: right;
+}
 
 .plan-box {
     background-color: #fff;
     border-radius: 5px;
-    width: 90%;
+    width: 160%;
     margin-left: 5%; 
     box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
+    background-color: #fcfcfc;
     padding: 15px;
+    border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
 
 .plan-box div:first-child {
     background-color: #fcfcfc;
+    margin-left: 30%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
