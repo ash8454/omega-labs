@@ -12,37 +12,39 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
-    <title>SeleniumGuru</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/resources/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/resources/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/resources/favicons/manifest.json">
-    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">    
+    <title>SeleniumGuru.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="selenium-guru">
+    <meta name="application-name" content="selenium-guru">
+    <meta name="theme-color" content="#ffffff"> 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmw4bmuz9G8lcFdGxohsf73hRtSO2SLNw&callback=initMap"
+        type="text/javascript"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108744444-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-108744444-1');
+    </script>
 
-<!--
-    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/resources/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/resources/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/resources/favicons/manifest.json">
-    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
--->
 </head>
 
 <body>
     <header>
+     <section class="home" id="home">
         <nav>
-            <div class="row" id="home">
-                <img src="resources/img/Omega-Labs-White.png" alt="Omnifood logo" class="logo">
-                <!--<img src="resources/img/Omega-Labs.svg" alt="Omnifood logo" class="logo-black">-->
+            <div class="row" id="home-page-header">
+                <img src="resources/img/main_logo-white.png" alt="Selenium Guru Logo" class="logo">
+                <img src="resources/img/main_logo.png" alt="Selenium Guru logo" class="logo-black">
                 <ul class="main-nav js--main-nav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#solutions">Product</a></li>
+                    <li><a href="#products">Product</a></li>
                     <li><a href="#demo">Sign Up for Demo</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact-us">Contact Us</a></li>
@@ -52,9 +54,10 @@
         </nav>
         <div class="hero-text-box">
             <h1 class="omega-header">UPGRADE YOUR CAREER<br> TO BE AN AUTOMATION EXPERT</h1>
-            <a class="btn btn-full js--scroll-to-plans" id="free-trial" href="#products">View All Courses</a>
+            <a class="btn btn-full js--scroll-to-plans" id="free-trial" href="#products">Enroll Now!</a>
             <a class="btn btn-ghost js--scroll-to-start" id="learn-more" href="#about">Show me more</a>
         </div>
+     </section>         
     </header>
     <section class="section-about" id="about">
         <div class="row">
@@ -111,95 +114,114 @@
         </div>
     </section>
 
-    <section class="section-products js--section-products" id="products">
-        <div class="row">
-            <h2>SELENIUM GURU PRODUCTS</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-1">
-                <div class="plan-box">
-                    <div class="product-h3">
-                        <h3>SELENIUM WEB AUTOMATION EXPERT</h3>
+         <section class="section-products js--section-products" id="products">
+            <div class="row">
+                <h2>SELENIUM GURU PRODUCTS</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <div class="plan-box">
+                        <div class="product-h3">
+                            <h3 class="h3-product-header">SELENIUM WEB AUTOMATION EXPERT</h3>
+                        </div>
+                        <div>
+                            <ul class="plan1">
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>
+                                Brief Introduction to QA</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>ATDD Test Framework Using Selenium and Cucumber</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>          
+                            </ul>
+                        </div>
+
                     </div>
-                    <div>
-                        <ul class="plan1">
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>
-                            Brief Introduction to QA</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Creation of ATDD Test Framework Using Selenium and Cucumber</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>          
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#demo" class="btn btn-ghost-beginner">Sign up now</a>
+                </div>
+        <div class="col span-1-of-2">
+          <div class="course-block" id="block-4432284">
+             <div class="row">
+                <div class="course-block-embed-video">
+                   <center>
+                       <iframe width="380" height="300" src="https://www.youtube.com/embed/S3m8QTGHmGE" frameborder="0" allowfullscreen></iframe>
+                   </center>
+                </div>
+             </div>
+             <div>
+             </div>
+             <div class="beginner-button">
+                <a href="https://www.udemy.com/complete-automation-engineer-bootcamp/" class="btn btn-ghost-beginner" target="_blank">Sign up now</a>
+            </div>
+            </div>
+
+          </div>
+            </div>
+
+       <div class="row">
+
+      </div>
+    </section>         
+     <section class="section-products js--section-products" id="products_2">
+            <div class="row">
+                <h2>SELENIUM GURU PRODUCTS</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-1">
+                    <div class="plan-box">
+                        <div>
+                            <h3 class="h3-product-header">SELENIUM CLOUD AUTOMATION EXPERT</h3>
+                        </div>
+                        <div>
+                            <ul class="plan2">
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>
+                                Introduction to Quality Assurance</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>ATDD Test Framework Using Selenium and Cucumber</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>    
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Basic Cloud Automation Framework Using Selenium Grid</li>    
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced Cloud Automation Framework with Grid & Docker</li>          
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="##" class="btn btn-ghost-grid">COMING SOON</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-products js--section-products" id="products_2">
-        <div class="row">
-            <h2>SELENIUM GURU PRODUCTS</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-1">
-                <div class="plan-box">
-                    <div>
-                        <h3>SELENIUM CLOUD AUTOMATION EXPERT</h3>
-                    </div>
-                    <div>
-                        <ul class="plan1">
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>
-                            Introduction to Quality Assurance</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Creation of ATDD Test Framework Using Selenium and Cucumber</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>    
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Creation of Basic Cloud Automation Framework Using Selenium Grid</li>    
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced Cloud Automation Framework Using Selenium Grid & Docker</li>          
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="##" class="btn btn-ghost-grid">COMING SOON</a>
+        </section>
+
+            <section class="section-products js--section-products" id="products_3">
+            <div class="row">
+                <h2>SELENIUM GURU PRODUCTS</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-1">
+                    <div class="plan-box">
+                        <div>
+                            <h3 class="h3-product-header">SELENIUM MOBILE AUTOMATION EXPERT</h3>
+                        </div>
+                        <div>
+                            <ul class="plan3">
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>
+                                Introduction to Quality Assurance</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>ATDD Test Framework Using Selenium and Cucumber</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>    
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Cloud Automation Framework Using Selenium Grid</li>    
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced Cloud Automation Framework with Grid & Docker</li>          
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="##" class="btn btn-ghost-mobile">COMING SOON</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-        <section class="section-products js--section-products" id="products_3">
-        <div class="row">
-            <h2>SELENIUM GURU PRODUCTS</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-1">
-                <div class="plan-box">
-                    <div>
-                        <h3 class="product-header">SELENIUM MOBILE AUTOMATION EXPERT</h3>
-                    </div>
-                    <div>
-                        <ul class="plan1">
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>
-                            Introduction to Quality Assurance</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Ruby Refresher</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Introduction to Selenium</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Getting Started with WebDriver</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Creation of ATDD Test Framework Using Selenium and Cucumber</li>
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced ATDD Test Framework</li>    
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Creation of Basic Cloud Automation Framework Using Selenium Grid</li>    
-                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Advanced Cloud Automation Framework Using Selenium Grid & Docker</li>          
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="##" class="btn btn-ghost-mobile">COMING SOON</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
     <section class="section-testimonials" id="testimonials">
         <div class="row">
@@ -294,6 +316,7 @@
                     </select>
                 </div>
             </div>
+<!--
             <div class="row">
                 <div class="col span-1-of-3">
                     <label>Newsletter?</label>
@@ -302,6 +325,7 @@
                     <input type="checkbox" name="news" id="news" checked> Yes, please
                 </div>
             </div>
+-->
             <div class="row">
                 <div class="col span-1-of-3">
                     <label>Comments:</label>
@@ -344,9 +368,6 @@
                     </div>
                     <div class="city-info">
                         <i class="ion-map icon-small"></i> Round Hill VA
-                    </div>
-                    <div class="phone-info">
-                        <i class="ion-ios-telephone-outline icon-small"></i> Phone: 443-480-4558
                     </div>
                     <div class="email-info">
                         <i class="ion-ios-email-outline icon-small"></i> Email: support@omegalabstech.com

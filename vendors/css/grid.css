@@ -36,6 +36,14 @@
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
+    
+        
+    .hero-text-box {
+        margin-top: 215px;
+        margin-left: -160px;
+        font-size: 10px;
+    }
+    
 	.col { 
 		/*margin: 1% 0 1% 0%;*/
         margin: 0;
@@ -686,4 +694,15 @@
 	.span-1-of-12 {
 		width: 100%; 
 	}
+    
+    .plan-box ul li {
+        padding: 1px 0;
+        font-size: 12.5px;
+    }
+    
+    .course-block-embed-video {
+        width: 20%;
+    }
+
+
 }
