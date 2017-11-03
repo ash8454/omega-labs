@@ -849,7 +849,7 @@ cite img {
 }
 
 .contact-form {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     color: rgb(70, 71, 72);
@@ -905,6 +905,7 @@ input[type=checkbox] {
 /* ----------------------------------  */
 /* CONTACT US*/
 /* ----------------------------------  */
+
 
 
 .map-box {
@@ -1045,3 +1046,6 @@ footer p {
 {
     opacity: 1;
 }
+
+/*queries*/
+

@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
     <title>SeleniumGuru.com</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -356,7 +356,7 @@
             </div>
         </form>
     </section>
-
+    <section>
     <div class="map-box">
         <div class="contact-us" id="contact-us">
             <div class="row">
@@ -390,6 +390,7 @@
         </div>
 
     </div>
+    </section>
     <footer>
         <div class="row">
             <div class="col span-1-of-2">

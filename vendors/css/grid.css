@@ -35,8 +35,8 @@
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
-    
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
+
         
     .hero-text-box {
         margin-top: 215px;
@@ -48,6 +48,16 @@
 		/*margin: 1% 0 1% 0%;*/
         margin: 0;
 	}
+
+	.logo {
+        height: 120px;
+/*    width: auto;*/
+        float: left;
+        margin-left: -20px;
+        color: rgba(11, 8, 8, 0.58);
+        margin-top: -35px;
+    }
+
 }
 
 
@@ -64,7 +74,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px)  {
 	.span-2-of-2 {
 		width: 100%; 
 	}
@@ -92,7 +102,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-3-of-3 {
 		width: 100%; 
 	}
@@ -126,7 +136,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-4-of-4 {
 		width: 100%; 
 	}
@@ -168,7 +178,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-5-of-5 {
 		width: 100%; 
 	}
@@ -217,7 +227,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-6-of-6 {
 		width: 100%; 
 	}
@@ -274,7 +284,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-7-of-7 {
 		width: 100%; 
 	}
@@ -337,7 +347,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-8-of-8 {
 		width: 100%; 
 	}
@@ -407,7 +417,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-9-of-9 {
 		width: 100%; 
 	}
@@ -484,7 +494,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (max-device-width: 480px) { 
 	.span-10-of-10 {
 		width: 100%; 
 	}
